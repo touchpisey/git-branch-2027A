@@ -1,51 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sip & Savor | Craft Beverages & Café</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-    <!-- Navbar -->
-    <header>
-        <h2>My Website</h2>
+  <header>
+    <a href="#home" class="logo">🥤 Sip & Savor</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#drinks">Beverages</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Artisan Drinks, Freshly Brewed Daily</h1>
+      <p>Discover our refreshing collection of specialty cold brews, fresh fruit smoothies, handcrafted boba teas, and signature mocktails.</p>
+      <a href="#drinks" class="btn">Explore Menu</a>
+    </div>
+  </section>
 
-    <!-- Home -->
-    <section id="home" class="hero">
-        <h1>Welcome to My Website</h1>
-        <p>This is my simple website.</p>
-        <button>Learn More</button>
-    </section>
+  <section class="section" id="about">
+    <h2 class="section-title">Crafted for Flavor</h2>
+    <p class="section-subtitle">Real ingredients, freshly squeezed juices, and ethically sourced coffee beans.</p>
+    <div class="about-content">
+      <img src="https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80" alt="Barista preparing a specialty drink" class="about-img">
+      <div class="about-text">
+        <h3>Every Sip is an Experience</h3>
+        <p>At Sip & Savor, we believe beverages should be more than just a thirst quencher—they should be a moment of delight. We work directly with local farmers and tea estates to source organic ingredients and premium tea leaves.</p>
+        <p>Whether you need a caffeine boost to start your morning, a nutrient-packed smoothie post-workout, or an ice-cold specialty drink with friends, we craft every cup with precision and care.</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- About -->
-    <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>
-            I am an IT student learning web development.
-            I enjoy creating websites with HTML and CSS.
-        </p>
-    </section>
+  <section class="section drinks-section" id="drinks">
+    <h2 class="section-title">Popular Drinks</h2>
+    <p class="section-subtitle">Handcrafted beverages to brighten your day.</p>
+    <div class="drinks-grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=600&q=80" alt="Iced Caramel Latte">
+        <div class="card-body">
+          <h3 class="card-title">Iced Sea Salt Caramel Latte</h3>
+          <p>Double espresso with oat milk, homemade caramel drip, topped with sea salt cold foam.</p>
+          <span class="price">$5.50</span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=600&q=80" alt="Dragon Fruit Smoothie">
+        <div class="card-body">
+          <h3 class="card-title">Tropical Dragon Fruit Blend</h3>
+          <p>Organic pitaya blended with mango, coconut water, fresh lime juice, and mint leaves.</p>
+          <span class="price">$6.25</span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=600&q=80" alt="Matcha Milk Tea with Boba">
+        <div class="card-body">
+          <h3 class="card-title">Matcha Brown Sugar Boba</h3>
+          <p>Ceremonial grade Uji matcha with fresh milk, organic brown sugar syrup, and chewy tapioca pearls.</p>
+          <span class="price">$5.95</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Contact -->
-    <section id="contact" class="contact">
-        <h2>Contact Me</h2>
-        <p>Email: example@gmail.com</p>
-        <p>Phone: 012 345 678</p>
-    </section>
+  <section class="section reviews-bg" id="reviews">
+    <h2 class="section-title">What Our Guests Say</h2>
+    <p class="section-subtitle">Loved by coffee lovers and tea enthusiasts alike.</p>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"Hands down the smoothest iced cold brew in the neighborhood. The sea salt cream foam is heavenly!"</p>
+        <div class="reviewer">— Alex P.</div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"Their tropical fruit smoothies taste so fresh! You can really tell they don't use artificial syrups or additives."</p>
+        <div class="reviewer">— Jessica T.</div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"The matcha boba here is incredible! Always fresh tapioca pearls and perfectly balanced sweetness levels."</p>
+        <div class="reviewer">— Marcus K.</div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 My Website</p>
-    </footer>
+  <section class="section" id="contact">
+    <h2 class="section-title">Find Us & Connect</h2>
+    <p class="section-subtitle">Stop by for a drink or drop us a question for catering & events.</p>
+    <div class="contact-container">
+      <div class="contact-info">
+        <h3>Visit Our Beverage Bar</h3>
+        <p>📍 <strong>Address:</strong> 456 Refreshment Ave, Brew City</p>
+        <p>📞 <strong>Phone:</strong> (555) 890-1234</p>
+        <p>✉️ <strong>Email:</strong> drinks@sipandsavor.com</p>
+        <p>🕒 <strong>Hours:</strong> Mon–Sun: 7am – 9pm</p>
+      </div>
+      
+      <form class="contact-form" action="#" method="post">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" required placeholder="Jane Smith">
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" required placeholder="jane@example.com">
+        </div>
+        <div class="form-group">
+          <label for="message">Message / Catering Inquiry</label>
+          <textarea id="message" required placeholder="Ask about catering, party pop-up bars, or general questions..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-full">Send Message</button>
+      </form>
+    </div>
+  </section>
 
+  <footer>
+    <p>&copy; 2026 Sip & Savor Beverage Lounge. All rights reserved.</p>
+  </footer>
 </body>
 </html>
